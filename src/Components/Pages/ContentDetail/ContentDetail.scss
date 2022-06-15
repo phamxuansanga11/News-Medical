@@ -1,0 +1,19 @@
+.content__detailss {
+  background-color: rgba(31, 41, 55, 1);
+  padding: 32px;
+  border-radius: 10px;
+  .content__detailss-img {
+    > img {
+      border-radius: 10px;
+    }
+  }
+  .covid__item-author__date {
+    .author {
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
