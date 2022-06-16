@@ -7,20 +7,20 @@ function Header(props) {
   return (
     <div className="wrapper__header">
       <div className="header">
-        <div className="logo">
+        <Link to="/" className="logo">
           <img src={Logo} alt="" />
           <h1 className="name__website">Medical News</h1>
-        </div>
+        </Link>
         <div className="menu">
           <ul>
             <li>
-              <Link to="/covid19">COVID-19</Link>
+              <Link to="news/covid19">COVID-19</Link>
             </li>
             <li>
-              <Link to="/thietbiyte">Thiết bị y tế</Link>
+              <Link to="news/thietbiyte">Thiết bị y tế</Link>
             </li>
             <li>
-              <Link to="/foru">ForU</Link>
+              <Link to="news/foru">ForU</Link>
             </li>
           </ul>
         </div>

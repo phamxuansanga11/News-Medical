@@ -9,7 +9,9 @@ function CovidItem({ data }) {
       <div className="covid__item-img">
         <img src={data.img} alt="" />
       </div>
-      <h2 className="covid__item-title">{data.title}</h2>
+      <Link to={`/content/${data.id}`} className="covid__item-title">
+        {data.title}
+      </Link>
       <div className="covid__item-author__date">
         <div className="author">
           <img src={data.avatar} alt="" />
