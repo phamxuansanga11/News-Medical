@@ -14,13 +14,13 @@ function Header(props) {
         <div className="menu">
           <ul>
             <li>
-              <Link to="news/covid19">COVID-19</Link>
+              <Link to="/covid19">COVID-19</Link>
             </li>
             <li>
-              <Link to="news/thietbiyte">Thiết bị y tế</Link>
+              <Link to="/thietbiyte">Thiết bị y tế</Link>
             </li>
             <li>
-              <Link to="news/foru">ForU</Link>
+              <Link to="/foru">ForU</Link>
             </li>
           </ul>
         </div>

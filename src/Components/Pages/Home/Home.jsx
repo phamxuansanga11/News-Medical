@@ -14,7 +14,6 @@ function Home(props) {
     };
     getData();
   }, []);
-  console.log(contentCovid);
   return (
     <div className="covid__content">
       {contentCovid.map((data, idx) => {

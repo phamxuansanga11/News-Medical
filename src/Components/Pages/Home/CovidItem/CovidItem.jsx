@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./CovidItem.scss";
 
 function CovidItem({ data }) {
-  console.log(data);
   return (
     <div className="covid__item">
       <div className="covid__item-img">

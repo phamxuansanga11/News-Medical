@@ -11,7 +11,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}></Route>
       <Route path="/content/:id" element={<LayoutOther />}></Route>
-      <Route path="/news/:page" element={<LayoutHeader />}></Route>
+      <Route path="/:page" element={<LayoutHeader />}></Route>
+      {/* <Route path="/thietbiyte" element={<LayoutHeader />}></Route>
+      <Route path="/foru" element={<LayoutHeader />}></Route> */}
       <Route path="/*" element={<NotFound />}></Route>
     </Routes>
   );
